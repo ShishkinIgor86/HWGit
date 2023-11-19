@@ -10,5 +10,5 @@ if len(second_l)!=m:
     quit()
 first=set(first_l)
 second=set(second_l)
-l_f=sorted(first&second)
+l_f=sorted(first & second)
 print(' '.join(map(str, l_f)))
